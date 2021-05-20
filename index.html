@@ -1,41 +1,61 @@
+
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Gemma Colom</title>
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
-</head>
-<style>
-    h1 {
-        font-family: 'Abril Fatface', cursive;
-        font-size: 60px;
-        margin: 0%;
-    }
-    h2 {
-        font-family: 'Courgette', cursive;
-        font-size: 30px;  
-        color:  #e6e6e6;
-        margin-top: 0%;
-    }
-    body {
-        background-color: black;
-        color: white;
-    }
-    .img {
-        width: 50%;
-        margin: 0%;
-        padding: 0%;
-    }
-    .logo {
-        width: 4%;
-    }
-</style>
-<body><center>
-    <h1>Gemma Colom</h1>
-    <h2>Animadora 2D</h2>
-    <a href="https://www.behance.net/gemmacolom1"><img class="logo"  src="images/UI/ui_img1.svg" alt="Behance"></a><br>
-    <img class="img" src="images/samples/samples_img1.PNG" alt="logo">    
-</center></body></html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Gemma Colom</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="apple-touch-icon" sizes="180x180" href="icon/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="icon//favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="icon/favicon-16x16.png">
+        <link rel="manifest" href="icon/site.webmanifest">
+    </head>
+    <body>
+    
+<!--Menu navegacio-->
+        <header>
+            <a href="index.html"><img src="images/header.png" class="imgheader"></a>
+        <nav>
+            <ul class="main-nav">
+                <li><a href="index.html">PROJECTS</a></li>
+                <li><a href="html/sobremi.html">ABOUT</a></li>
+            </ul>
+        </nav>
+            <!--<label for="btn-nav" class="btn-nav"><i class="fas fa-bars"></i></label>
+            <input type="checkbox" id="btn-nav">
+            <nav>
+               <ul class="ul-menu">
+                        <li><a href="index.html" class="menu">Projectes</a></li>
+                        <li><a href="html/sobremi.html" class="menu">Sobre mi</a></li>
+                    </ul>
+            </nav>-->
+        </header>
+<!--Galeria-->
+        <div class="galeria">
+        <div class="row">
+            <div class="col-lg-8 offset-lg-2">
+                <div class="d-flex flex-wrap img-gallery">
+                    <a href=""><img class="image" src="images/personatge.png"></a>
+                    <a href="html/projiluminacio1.html"><img class="image" src="images/iluminacio.png"></a>
+                    <a href=""><img class="image" src="images/iluminacio2.png"></a>
+                    <a href="html/projanimacio1.html"><img class="image" src="images/face.png"></a>
+                </div>
+            </div>
+            </div>
+        </div>
+<!--Footer-->        
+        <footer>
+            <p>
+                Gemma Colom ©
+            </p>
+            <a href="mailto:cgemmag@gmail.com" class="logo"><img src="images/email.png" width="50px;"></a>
+            <a href="" class="logo"><img src="images/instagram.png" width="50px;"></a>
+            <a href="https://www.behance.net/gemmacolom1" class="logo"><img src="images/behance.png" width="50px;"></a>
+            <a href="" class="logo"><img src="images/phone.png" width="50px;"></a>
+            <a href="https://linkedin.com/in/gemma-colom-gonzález-66288020a" class="logo"><img src="images/linkedin.png" width="50px;"></a>
+            
+        </footer>
+    </body>
+</html>

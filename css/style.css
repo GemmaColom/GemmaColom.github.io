@@ -1,0 +1,169 @@
+/*-----------------------------------------------General----------------------------------------*/
+body {
+    max-width: 1230px;
+    min-width: 320px;
+    /*background-image: url(/images/behance.png);*/
+    background-color: black;
+    margin: auto;
+    color: #f26419;
+    padding: 50px;
+    margin-top: 20px;
+    font-family: 'Roboto', sans-serif; 
+}
+
+/*-----------------------------------------------Titols----------------------------------------*/
+h1, h2, h3 {
+    font-weight: 700;
+}
+
+header {
+    text-align: center;
+    padding-bottom: 50px;
+}
+.imgheader {
+    width: 400px;
+    text-align: center;
+}
+/*------------------------------------------Menú navegació-------------------------------------*/
+
+nav ul {
+    list-style-type: none;
+    margin: 30px 0px;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav li {
+    display:inline-block;    
+    border-bottom: 2px solid white;
+    margin: 30px;
+    width: 40%;
+    text-align: center;
+
+}
+nav li:hover {
+    border-bottom: 2px solid white;
+    opacity: 0.8;
+    transition: .3s ease;
+}
+
+nav li a {
+    display: block;
+    color: #f26419;
+    text-align: center;
+    padding: 15px 25px;
+    text-decoration: none;
+}
+/*---------menu navegacio alternativa------------------*/
+/*nav {
+    position: fixed;
+    left:0;
+    top:0;
+    width: 300px;
+    top:50px;
+    height:100%;
+    background: #f26419;
+    transform:translateX(-100%);
+    transition:.4s ease;
+}
+.ul-menu li {
+    list-style:none;
+    width: 100%;
+    border-left: 2px solid rgba(255,255,255,.7);
+    margin-top: 10%;
+    margin-bottom: 10%;
+    padding:0;
+}
+.ul-menu li:hover {
+    list-style:none;
+    width: 100%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    padding:0;
+    border-left: 2px solid rgba(255,255,255);
+    opacity: 0.5;
+}
+.ul-menu a {
+    color: white;
+    display: block;
+    line-height:8;
+    margin-bottom: 100px;
+    text-decoration:none;
+    transition:.4s ease;
+    text-align: center;
+}
+.ul-menu a:hover {
+    color: white;
+    opacity: 0.5;
+    display: block;
+    line-height:8;
+    margin-bottom: 100px;
+    text-decoration:none;
+    transition:.4s ease;
+    text-align: center;
+}
+#btn-nav{
+  display: none;
+}
+
+#btn-nav:checked ~ nav{
+  transform:translateX(0);
+}
+.btn-nav{
+  color:var(--main-color);
+  font-size:50px;
+  position: fixed;
+  left:0;
+  top:0;
+  cursor:pointer;
+  margin: 9px;
+  padding:16px 18.7px;
+  transition:4.s ease;
+  background: url(../images/menu.png);
+  opacity: 1;
+  transition: .5s ease;
+}
+.btn-nav:hover{
+    opacity: 0.5;
+}*/
+/*--------------------seccio galeria-------------------*/
+.img-gallery img {
+    width: 400px;
+    flex-grow: 2; 
+    object-fit: cover;
+    justify-content: center;
+    margin: 2px;
+}
+.image {
+    opacity: 1;
+    transition: .5s ease;
+    backface-visibility: visible;
+}
+.image:hover {
+    opacity: 0.3;
+}
+/*--------------------seccio footer---------------------*/
+footer {
+    border-top: 2px solid #f2f2f2;
+    text-align: center;
+    margin: 50px 0px;
+    padding-top: 20px;
+}
+footer p {
+    opacity: 0.9;
+}
+.logo {
+    opacity: 1;
+    padding: 5px;
+    transition:.2s ease;
+}
+.logo:hover {
+    opacity: 0.5;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #f26419;
+}
+
+
+
+
+
